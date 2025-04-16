@@ -74,9 +74,20 @@
     font-weight: bold;
 }
 
-.brand {
-    font-size: 2rem;
+.logoWrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    justify-content: flex-start;
+    flex-wrap: nowrap; /* impede quebra de linha */
+    max-width: 100%;
+  }
+  
+  .brand {
+    font-family: 'Lato', sans-serif;
+    font-size: 48px;
     font-weight: 700;
     color: #fe5000;
-    margin-bottom: 0.5rem;
-}
+    white-space: nowrap; /* força a frase a ficar numa linha só */
+  }
