@@ -10,6 +10,7 @@ export default function LoginForm() {
 
   return (
     <div className={styles.container}>
+      <h1 className={styles.brand}>Fiança Rápida</h1>
     <Image
         src="https://app.fiancarapida.com/logo.svg"
         alt="Logo"

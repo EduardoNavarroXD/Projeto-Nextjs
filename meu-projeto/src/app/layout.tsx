@@ -1,5 +1,9 @@
 import './globals.css'
 import type { Metadata } from 'next'
+import { Lato } from 'next/font/google'
+
+// importa a fonte Lato
+const lato = Lato({ subsets: ['latin'], weight: ['400', '700'] })
 
 export const metadata: Metadata = {
   title: 'Meu Projeto',
@@ -13,7 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body>{children}</body>
+      <body className={lato.className}>
+        {children}
+      </body>
     </html>
   )
 }

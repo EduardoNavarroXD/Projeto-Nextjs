@@ -73,3 +73,10 @@
     cursor: pointer;
     font-weight: bold;
 }
+
+.brand {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fe5000;
+    margin-bottom: 0.5rem;
+}
